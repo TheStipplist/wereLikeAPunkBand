@@ -1,0 +1,19 @@
+<% include ./head.ejs %>
+
+<link rel="stylesheet" href="/assets/stylesheets/character.css">
+
+<% include ./navbar.ejs %>
+	<img id="mobile-spacer" src="/assets/images/charactersMobile/backgrounds/<%=character%>.png">
+	<div id="mobile-character" class="clearfix <%=character%> character ">	
+		<div class="description">
+			<div class="card">
+				<img src="/assets/images/characters/tags/<%=character%>.png">
+			</div>
+			<p id="style-2" class="info scrollbar">
+				<%= theJson[character].description %>
+			</p>
+		</div>
+	</div>
+
+<% include ./footer.ejs %>
+

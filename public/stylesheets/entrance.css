@@ -1,0 +1,33 @@
+
+.logo-3D{
+    width: 40%;
+    display: block;
+    margin: 0 auto;
+    
+}
+.options{
+    font-size: 7vw;
+    padding: 0% 2.5%;
+    font-family: punkKid;
+}
+.options > a:hover{
+    border-bottom: .25vw solid yellow
+}
+a{
+    text-decoration: none;
+}
+.enter{
+    color: darkred;
+    text-decoration: none;    
+    float: left;
+}
+#entrance{
+    padding: 2.5% 2.5% 2% 2.5%;
+    background-size: 100% 100%;
+    background-image: url(../images/entrance/background.png);
+    background-repeat: no-repeat;
+}
+.leave{
+    color: darkred;
+    float: right;
+}

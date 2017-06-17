@@ -1,0 +1,100 @@
+.scrollbar
+{
+    overflow-y: scroll
+}
+.force-overflow
+{
+	min-height: 450px;
+}
+
+#style-2::-webkit-scrollbar-track
+{
+    border-radius: 0px;
+    background-color: transparent;
+}
+
+#style-2::-webkit-scrollbar
+{
+	width: 12px;
+	background-color: transparent;
+}
+
+#style-2::-webkit-scrollbar-thumb
+{
+	border-radius: 10px;
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+	background-color: #D62929;
+}
+#about-us{
+    background-image: url(../images/aboutUs/background.png);
+    background-position: center;
+    background-size: cover;
+}
+.heading img{
+    width: 50%;
+}
+#about-us .text-block{
+    width: 45%;
+    background-image: url(../images/aboutUs/textBlock.png);
+    background-size: 100% 100%;
+    float: right;
+    padding: 5% 3% 6% 7%;
+    text-indent: 6vw;
+    letter-spacing: .2vw;
+}
+p{
+    padding: 6% 6%;
+    font-family: momsTypewriter;
+    color: white;
+    font-size: 1.5vw;
+}
+
+#mobile-spacer{
+    display: none;
+}
+@media only screen and (max-width: 1300px) and (orientation: landscape){
+#about-us{
+    background-position: 26% 0%;
+}
+p{
+    max-height: 350px;
+    padding: 6% 6%;
+    font-family: momsTypewriter;
+    color: white;
+    font-size: 2.5vw;
+}
+}
+@media only screen and (orientation: portrait) {
+    #mobile-spacer{
+        display: block;
+        width: 100%;
+    }
+
+    #about-us {
+        height: 92vw;
+        background-image: url(../images/aboutUs/background.png);
+        background-position: center;
+        background-size: cover;
+    }
+
+    .heading img {
+        z-index: 1;
+        position: absolute;
+        width: 60%;
+    }
+
+    #about-us .text-block{
+        position: relative;
+        top: 19%;
+        width: 84%;
+        right: 3%;
+    }
+
+    p{
+        padding: 6% 6%;
+        font-family: momsTypewriter;
+        color: white;
+        font-size: 3.5vw;
+        text-indent: 20vw;
+    }
+}

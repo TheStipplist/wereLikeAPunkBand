@@ -1,0 +1,92 @@
+
+.scrollbar
+{
+    height: 35vw;
+    overflow-y: scroll
+}
+.force-overflow
+{
+	min-height: 450px;
+}
+
+#style-2::-webkit-scrollbar-track
+{
+    border-radius: 0px;
+    background-color: transparent;
+}
+
+#style-2::-webkit-scrollbar
+{
+	width: 12px;
+	background-color: transparent;
+}
+
+#style-2::-webkit-scrollbar-thumb
+{
+	border-radius: 10px;
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+	background-color: #D62929;
+}
+#credits{
+    background-image: url(../images/castCrew/background.png);
+    background-size: cover;
+}
+.description{
+    width: 68%;
+    float: right;
+    text-align: center;
+    background-image: url(../images/castCrew/textBlock.png);
+    padding: 6% 2%;
+    background-size: 100% 100%;
+}
+.header{
+    width: 28%;
+}
+#credits .description h1{
+    font-family: punkKid;
+    font-size: 3vw;
+    letter-spacing: .25vw;
+    word-spacing: 1.125vw;
+}
+#credits .description ul{
+    font-family: momsTypewriter;
+    font-size: 2vw;
+}
+#credits .description li{
+    
+}
+@media only screen and (orientation: portrait) {
+    .header{
+        width: 100%;
+        content: url('/assets/images/castCrew/mobile/castCrew.png');
+    }
+    .description{
+        width: 77%;
+        float: none;
+        text-align: center;
+        background-image: url(../images/castCrew/textBlock.png);
+        padding: 10% 9% 16% 14%;
+        background-size: 100% 100%;
+        margin: 0 auto;
+    }
+    .scrollbar {
+        height: 600px;
+        overflow-y: scroll;
+    }
+    #credits .description h1 {
+        font-family: punkKid;
+        font-size: 6vw;
+        letter-spacing: .5vw;
+        word-spacing: 1.125vw;
+    }
+    #credits .description ul {
+        padding: 4% 0%;
+        font-family: momsTypewriter;
+        font-size: 4vw;
+    }
+     #credits .description .credits {
+        padding: 0% 0%;
+        font-family: momsTypewriter;
+        font-size: 1.5vw;
+    }
+}

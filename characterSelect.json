@@ -1,0 +1,20 @@
+[
+    {
+        "icon": "images/characterSelect/TODD.png",
+        "actor": "Thom Oliver James Boody",
+        "role": "TODD",
+        "tags":{
+            "actor":"images/characterSelect/tags/thomOliverJamesBoody.png",
+            "role:":"images/characterSelect/tags/brendanHickey.png"
+        }
+    },
+    {
+        "icon": "images/characterSelect/BUTCHIE.png",
+        "actor": "Brendan Hickey",
+        "role": "BUTCHIE",
+        "tags":{
+            "actor":"images/characterSelect/tags/thomOliverJamesBoody.png",
+            "role:":"images/characterSelect/tags/brendanHickey.png"
+        }
+    }
+]

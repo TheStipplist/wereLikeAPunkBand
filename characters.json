@@ -1,0 +1,27 @@
+{
+    "TJ":{
+        "background-image": "../images/characters/backgrounds/TJ.png",
+        "Tag": "images/characters/tags/TJ.png",
+        "description": "Woah, that's me! Front man for the band, “MISOGYFIST”. Warm, enthusiastic, optimistic, friendly and eager; TJ embodies pretty much every punk ideal."
+    },
+    "BUTCHIE":{
+        "background-image": "images/characters/backgrounds/BUTCHIE.png",
+        "Tag": "images/characters/tags/BUTCHIE.png",
+        "description": "Self described sexual dynamo. Also self described Renaissance man, mover and shaker, Cambodian medicine man, and purveyor of something he calls... Handballing? I don't really understand Butch most of the time and we butt heads often, but he is an essential member of the band."
+    },
+    "TODD":{
+        "background-image": "../images/characters/backgrounds/TODD.png",
+        "Tag": "images/characters/tags/TODD.png",
+        "description": "Really likes horses."
+    },
+    "LEE":{
+        "background-image": "../images/characters/backgrounds/LEE.png",
+        "Tag": "images/characters/tags/LEE.png",
+        "description": "Some new guy who's auditioning for the band. Seems like a good dude, I'm told he's a little shy though. Either way if he's a cool guy, I'll take him under my wing and show him the ropes. Punk Scout's promise."
+    },
+    "NIKKI":{
+        "background-image": "../images/characters/backgrounds/NIKKI.png",
+        "Tag": "images/characters/tags/NIKKI.png",
+        "description": "My girlfriend who I love with every part of my heart, mind, body and soul. Isn't she beautiful? Seriously I mean, look at her. Have you ever seen someone more beautiful than her? That was a rhetorical question, because OBVIOUSLY you haven't. Not trying to brag just... Gosh... But anyway we're pretty much soul mates and will be in love forever. I haven't seen her in months because like, I'm a busy punk rock guy, it's not for some other reason. Yeah. It's not for some other reason. Wait, don't write that part down."
+    }
+}
