@@ -1,0 +1,168 @@
+.scrollbar
+{
+    overflow-x: scroll
+}
+.force-overflow
+{
+	min-height: 450px;
+}
+
+#style-2::-webkit-scrollbar-track
+{
+    border-radius: 0px;
+    background-color: transparent;
+}
+
+#style-2::-webkit-scrollbar
+{
+	width: 12px;
+	background-color: transparent;
+}
+
+#style-2::-webkit-scrollbar-thumb
+{
+	border-radius: 10px;
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+	background-color: #D62929;
+}
+
+
+.card img{
+    width: 100%;
+}
+.character.TODD{
+    width: 100%;
+    background-image: url(../images/characters/backgrounds/TODD.png);
+
+}
+.character.BUTCHIE{
+    width: 100%;
+    background-image: url(../images/characters/backgrounds/BUTCHIE.png);
+}
+.character.TJ{
+    width: 100%;
+    background-image: url(../images/characters/backgrounds/TJ.png);
+}
+.character.NIKKI{
+    width: 100%;
+    background-image: url(../images/characters/backgrounds/NIKKI.png);
+}
+.character.LEE{
+    width: 100%;
+    background-image: url(../images/characters/backgrounds/LEE.png);
+}
+
+.character{
+    height: 900px;
+    font-family: momsTypewriter;
+    background-position: center;
+    background-size: cover;
+}
+
+.character .card{
+    width: 100%;
+    background-image: url(../images/characters/card.png);
+    background-position: center;
+    background-size: cover;
+    padding: 4% 0%;
+}
+.description{
+    width: 680px;
+    background-image: url(../images/characters/textBlock.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.character .info{
+    text-indent: 66px;
+    height: 425px;
+    margin: 3% 11%;
+    padding: 0%;
+}
+.BUTCHIE .info{
+    font-size: 24px;
+}
+.TJ .info{
+    font-size: 30px;
+}
+.info{
+    font-size: 20px;
+}
+#mobile-spacer{
+    display: none;
+}
+
+@media only screen and (max-width:1300px) and (orientation: landscape){
+.character{
+    font-family: momsTypewriter;
+    background-position: center;
+    background-size: cover;
+}
+
+.character .card{
+    width: 100%;
+    background-image: url(../images/characters/card.png);
+    background-position: center;
+    background-size: cover;
+    padding: 4% 0%;
+}
+.description{
+    padding: 0% 2% 8% 4%;
+    width: 55%;
+    background-image: url(../images/castCrew/textBlock.png);
+    background-position: center;
+    background-size: 100% 100%;
+}
+
+.character .info{
+    text-indent: 66px;
+    height: 407px;
+    padding: 0% 9%;
+}
+.character.TJ {
+
+    background-position: 82% 0%;
+}
+.character.BUTCHIE {
+
+    background-position: 72% 0%;
+}
+.character.BUTCHIE {
+
+    background-position: 66% 0%;
+}
+.character.LEE {
+
+    background-position: 75% 0%;
+}
+.character.NIKKI{
+
+    background-position: 60% 0%;
+}
+    
+}
+@media only screen and (orientation: portrait){
+    #mobile-character{
+        background-image: url(../images/charactersMobile/textBlock.png);
+        background-position: center;
+        background-size: 100% 100%;
+    }
+    #mobile-spacer{
+        display: block;
+        width: 100%;
+    }
+    .character{
+        height: initial;
+        padding: 0%;
+    }
+    .description{
+        padding: 0% 2% 8% 4%;
+        width: 90%;
+        margin: 0 auto;
+        background: none;
+    }
+    .character .info {
+        margin: 3% 5%;
+        max-height: 300px;
+    }
+}

@@ -1,0 +1,107 @@
+#music{
+    background-image: url(../images/musicPage/background.png);
+    background-position: 0% 0%;
+    background-size: cover;
+    width: 100%;
+    height: 56vw;
+}
+#music .card{
+    float: right;
+    width: 40%;
+    padding: 3% 4% 7% 4%;
+    background-image: url(../images/musicPage/card.png);
+    background-position: center;
+    background-size: 100% 100%;
+}
+ #music *{
+     color: black
+ }
+.musicBtn{
+    width: 20%;
+    float: left;
+}
+.controls{
+    width: 80%;
+    float: right;
+}
+.selection{
+    font-family: momsTypewriter;
+    font-size: 3vw;
+
+    width: 100%;
+}
+.volume{
+
+    width: 100%;
+    background-image: url(../images/musicPage/volume.png);
+    background-position: center;
+    background-size: 100% 100%;
+}
+.tracks li{
+    list-style: none;
+    font-size: 3vw;
+    font-family: momsTypewriter;
+    float: left;
+    clear: both;
+}
+.analyzer{
+    clear: both;
+    width: 100%;
+    height: 6vw;
+    background-image: url(../images/musicPage/analyzer.png);
+    background-position: center;
+    background-size: 100% 100%;
+}
+
+.border{
+    width: 100%;
+}
+@media only screen and (max-width:1300px) and (orientation: landscape){
+     #music{
+          padding: 0%;
+          width: 100%;
+          height: 700px;
+
+      }
+}
+
+@media only screen and (orientation: portrait) {     
+      #music{
+          height: inherit;
+          padding: 0%;
+          width: 100%;
+          background-image: url(../images/castCrew/background.png);
+
+      }
+     
+      #music .card{
+        float: none;
+        width: initial;
+        padding: 7% 9% 22% 9%;
+        background-image: url(../images/musicPage/card.png);
+        background-position: center;
+        background-size: 100% 100%;
+    }
+    .controls{
+        width: 75%;
+    }
+    .selection{
+        font-size: 7vw;
+        width: initial;
+
+    }
+    .tracks li{
+        font-size: 10vw;
+    }
+    .play{
+        width: 25%;
+
+    }
+    .volume{
+        width: 90%;
+    }
+    .analyzer{
+        width: 100%;
+        height: 15vw;
+    }
+}

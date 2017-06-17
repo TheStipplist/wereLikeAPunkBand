@@ -1,0 +1,39 @@
+<% include ./head.ejs %>
+
+<link rel="stylesheet" href="/assets/stylesheets/music.css">
+
+<% include ./navbar.ejs %>
+<div id="music" class="clearfix">
+		<div class="card clearfix">
+			<img id="playBtn" class="musicBtn" src="/assets/images/musicPage/play.png">
+			<div class="controls clearfix">
+				<h1 class="selection">
+					Cummy Mummy
+				</h1>
+				<div class="volume">
+					<img src="/assets/images/musicPage/volumeKnob.png">
+				</div>
+			</div>
+			<div class="analyzer">
+			</div>
+			<div class="tracks">
+				<li id="song" value="CummyMummy">
+					Cummy Mummy
+				</li>
+				<img src="/assets/images/musicPage/border.png" class="border">
+				<li id="song" value="IAmTheHorse">
+					I Am The Horse
+				</li>
+				<img src="/assets/images/musicPage/border.png" class="border">
+				<li id="song" value="PizzaGuy">
+					Pizza Guy
+				</li>
+				<img src="/assets/images/musicPage/border.png" class="border">
+				<li id="song" value="ShitsGonnaHitTheFan">
+					Shits Gonna Hit The Fan
+				</li>
+				<img src="/assets/images/musicPage/border.png" class="border">
+			</div>
+		</div>
+	</div>
+    <% include ./footer.ejs %>

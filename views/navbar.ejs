@@ -1,0 +1,39 @@
+
+<% include ./head.ejs %>
+<link rel="stylesheet" href="/assets/stylesheets/navbar.css">
+	<!--[if IE]>
+		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+</head>
+
+<body>
+	<div class="navbar clearfix">
+		<div class="navbar-links">
+			<a class="" href="/home">
+				<img class="nav-links" src="/assets/images/navbar/home.png">
+			</a>
+			<a class="" href="/aboutUs">
+				<img class="nav-links" src="/assets/images/navbar/aboutUs.png">
+			</a>
+			<a class="" href="/characterSelect">
+				<img class="nav-links" src="/assets/images/navbar/characters.png">
+			</a>
+			<a class="" href="/castCrew">
+				<img class="nav-links" src="/assets/images/navbar/castCrew.png">
+			</a>
+			<a class="" href="/music">
+				<img class="nav-links" src="/assets/images/navbar/music.png">
+			</a>
+			<a id="burger-box" class="dropdown" href="/music">
+				<img id="burger" src="/assets/images/navbar/hamburger.png">
+			</a>
+			<div class ="dropdown-content">
+					<a href ="/home" class= "dropdown-item">Home</a>
+					<a href ="/aboutUs" class= "dropdown-item">About us</a>
+					<a href ="/characterSelect" class= "dropdown-item">characters</a>
+					<a href ="/castCrew" class= "dropdown-item">cast & crew</a>
+					<a href ="/music" class= "dropdown-item">music</a>
+			</div>
+		</div>
+		
+	</div>

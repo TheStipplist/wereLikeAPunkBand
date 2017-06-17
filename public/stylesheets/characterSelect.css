@@ -1,0 +1,179 @@
+
+
+#character-select{
+    padding: 2%;
+    background-image: url(../images/characterSelect/background.png);
+    background-position: center;
+    background-size: cover;
+}
+
+#character-select .heading {
+    width: 450px;
+    font-family: momsTypewriter;
+    font-size: 79px;
+    padding: 30px;
+    background-image: url(../images/characterSelect/theBand.png);
+    background-position: center;
+    background-size: 100% 100%;
+    -webkit-text-stroke: red;
+    -webkit-text-stroke-width: .15vw;
+    
+}
+#selector{
+    padding: 1% 0% 0% 0%;
+    text-align: center;
+    color: white;
+    width: 100%;
+    font-family: momsTypewriter;
+    font-size: .90vw;
+}
+#selector  ul{
+    padding: 5%;
+}
+#selector li{
+    list-style: none;
+    padding: 3% 0%;
+}
+div.character{
+    float: left;
+    width: 20%;
+}
+
+.as{
+    background-image: url(../images/characterSelect/tags/as.png);
+    background-position: center;
+    background-size: 18% 72%;
+    background-repeat: no-repeat
+}
+
+#TODD .actor{
+    background-image: url(../images/characterSelect/tags/thomOliverJamesBoody.png);
+}
+#BUTCHIE .actor{
+    background-image: url(../images/characterSelect/tags/brendanHickey.png);
+}
+#NIKKI .actor{
+    background-image: url(../images/characterSelect/tags/allisonFrasca.png);
+}
+#TJ .actor{
+    background-image: url(../images/characterSelect/tags/stephenZuccaro.png);
+}
+#LEE .actor{
+    background-image: url(../images/characterSelect/tags/thomOliverJamesBoody.png);
+}
+
+.icon{
+    width: 100%;
+}
+#characters-select ul{
+    padding: 5% 5%;
+} 
+#characters-select li{
+    padding: 5% 5%;
+} 
+.role{
+    background-position: center;
+    background-size: 100% 100%;
+    font-size: 3vw;
+}
+#TODD .role{
+    background-image: url(../images/characterSelect/tags/TODD.png); 
+}
+
+#BUTCHIE .role{
+    background-image: url(../images/characterSelect/tags/BUTCHIE.png);  
+}
+#NIKKI .role{
+    background-image: url(../images/characterSelect/tags/NIKKI.png);  
+}
+#TJ .role{
+    background-image: url(../images/characterSelect/tags/TJ.png);  
+}
+#LEE .role{
+    background-image: url(../images/characterSelect/tags/LEE.png);  
+}
+
+.actor{
+    padding: 3% 0%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%
+}
+
+
+
+.characters-select div{
+    margin: 0% 1%;
+}
+#clicker{
+    display: none;
+}
+
+
+
+.scrollbar
+{
+    width:100%;
+    overflow-x: scroll
+}
+.force-overflow
+{
+	min-height: 450px;
+}
+
+#style-2::-webkit-scrollbar-track
+{
+    border-radius: 0px;
+    background-color: transparent;
+}
+
+#style-2::-webkit-scrollbar
+{
+	width: 12px;
+	background-color: transparent;
+}
+
+#style-2::-webkit-scrollbar-thumb
+{
+	border-radius: 10px;
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+	background-color: #D62929;
+}
+
+#selector{
+    width: 2000px;
+}
+
+#selector .as{
+    width: 100%;
+}
+div.character{
+    width: 400px;
+}
+
+.icon{
+    margin: 0 AUTO;
+    width: 85%;
+}
+#clicker{
+    display: inline-block;
+    width: 15%;
+    position: relative;
+    bottom: 5vw;
+}
+.info{
+    padding: 0%;
+}
+#selector .as{
+    font-size: 30px;
+}
+#selector .actor{
+    font-size: 22px;
+    padding: 4%;
+}
+#selector .role{
+    padding: 3%;
+    font-size: 59px;
+}
+
+
