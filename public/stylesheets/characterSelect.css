@@ -17,7 +17,7 @@
     background-size: 100% 100%;
     -webkit-text-stroke: red;
     -webkit-text-stroke-width: .15vw;
-    
+
 }
 #selector{
     padding: 1% 0% 0% 0%;
@@ -56,7 +56,7 @@ div.character{
     background-image: url(../images/characterSelect/tags/allisonFrasca.png);
 }
 #TJ .actor{
-    background-image: url(../images/characterSelect/tags/stephenZuccaro.png);
+    background-image: url(../images/characterSelect/tags/stephenzuccaro.png);
 }
 #LEE .actor{
     background-image: url(../images/characterSelect/tags/thomOliverJamesBoody.png);
@@ -67,30 +67,30 @@ div.character{
 }
 #characters-select ul{
     padding: 5% 5%;
-} 
+}
 #characters-select li{
     padding: 5% 5%;
-} 
+}
 .role{
     background-position: center;
     background-size: 100% 100%;
     font-size: 3vw;
 }
 #TODD .role{
-    background-image: url(../images/characterSelect/tags/TODD.png); 
+    background-image: url(../images/characterSelect/tags/TODD.png);
 }
 
 #BUTCHIE .role{
-    background-image: url(../images/characterSelect/tags/BUTCHIE.png);  
+    background-image: url(../images/characterSelect/tags/BUTCHIE.png);
 }
 #NIKKI .role{
-    background-image: url(../images/characterSelect/tags/NIKKI.png);  
+    background-image: url(../images/characterSelect/tags/NIKKI.png);
 }
 #TJ .role{
-    background-image: url(../images/characterSelect/tags/TJ.png);  
+    background-image: url(../images/characterSelect/tags/TJ.png);
 }
 #LEE .role{
-    background-image: url(../images/characterSelect/tags/LEE.png);  
+    background-image: url(../images/characterSelect/tags/LEE.png);
 }
 
 .actor{
@@ -175,5 +175,3 @@ div.character{
     padding: 3%;
     font-size: 59px;
 }
-
-
