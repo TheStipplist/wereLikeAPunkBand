@@ -4,6 +4,7 @@
   "description": "promotional website for the indie Punk Mockumentary Were Like a Punk Band written and directed by Thom Oliver James Boody",
   "main": "app.js",
   "scripts": {
+    "start": "node ./app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "James Johnston",
