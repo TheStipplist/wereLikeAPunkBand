@@ -5,6 +5,8 @@ var path = require('path');
 
 var app = express();
 
+var port = process.env.PORT || 8000;
+
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'ejs');
 
@@ -53,6 +55,6 @@ app.get('/castCrew', function(req,res){
     res.render('credits');
 })
 
-app.listen(5000,function(){
+app.listen(port,function(){
 
 });
