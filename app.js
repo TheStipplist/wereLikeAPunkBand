@@ -53,7 +53,3 @@ app.get('/characterSelect/:character', function(req, res){
 app.get('/castCrew', function(req,res){
     res.render('credits');
 })
-
-app.listen(8000,function(){
-    console.log('server is a go!');
-});
