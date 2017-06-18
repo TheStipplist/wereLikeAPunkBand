@@ -8,7 +8,6 @@ var app = express();
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'ejs');
 
-
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({extended:false}));
 
@@ -53,3 +52,7 @@ app.get('/characterSelect/:character', function(req, res){
 app.get('/castCrew', function(req,res){
     res.render('credits');
 })
+
+app.listen(5000,function(){
+
+});
