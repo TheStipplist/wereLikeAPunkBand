@@ -65,6 +65,8 @@ p{
 }
 }
 @media only screen and (orientation: portrait) {
+
+
     #mobile-spacer{
         display: block;
         width: 100%;
@@ -96,5 +98,8 @@ p{
         color: white;
         font-size: 3.5vw;
         text-indent: 20vw;
+    }
+    .ABOUT-US{
+      display: block;
     }
 }

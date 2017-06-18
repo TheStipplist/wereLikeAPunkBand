@@ -1,0 +1,125 @@
+<div id="stage" class="clearfix entrance">
+	<img class="logo-3D" src="images/entrance/COINFIST.png" >
+	<div class="clearfix">
+		<a href="./enter" class="enter options">ENTER</a>
+		<a href="./leave" class="leave options">LEAVE</a>
+	</div>
+</div>
+
+
+<div class="heading">
+	<img src="images/aboutUs/heading.png">
+</div>
+<div class="text-block">
+	<p>
+		Hi! I'm TJ Brock and I'm here to tell you a little bit about my band “MISOGYFIST”! We're currently preparing for our first performance ever, and I'm here right now to tell you all about us and stuff! Stick around with us, cause we're gonna make it big one of these days!
+	</p>
+</div>
+
+
+
+
+<div id="stage" class="clearfix characters">
+	<div class="heading">
+		The Band.
+	</div>
+	<div class="characters-select clearfix">
+		<div class="TODD character-1">
+			<img src="images/characterSelect/TODD.png" class="icon">
+			<ul class="info">
+				<li class="actor">
+					Thom Oliver James Boody
+				</li>
+				<li class="as">
+					as
+				</li>
+				<li class="character">
+					TODD
+				</li>
+			</ul>
+		</div>
+		<div class="BUTCHIE character-2">
+			<img src="images/characterSelect/BUTCHIE.png" class="icon">
+			<ul class="info">
+				<li class="actor">
+					Brendan Hickey
+				</li>
+				<li class="as">
+					as
+				</li>
+				<li class="character">
+					BUTCHIE
+				</li>
+			</ul>
+		</div>
+		<div class="NIKKI character-3">
+			<img src="images/characterSelect/NIKKI.png" class="icon">
+			<ul class="info">
+				<li class="actor">
+					Allison Frasca
+				</li>
+				<li class="as">
+					as
+				</li>
+				<li class="character">
+					NIKKI
+				</li>
+			</ul>
+		</div>
+		<div class="TJ character-1">
+			<img src="images/characterSelect/TJ.png" class="icon">
+			<ul class="info">
+				<li class="actor">
+					Stephen Zuccaro
+				</li>
+				<li class="as">
+					as
+				</li>
+				<li class="character">
+					T.J.
+				</li>
+			</ul>
+		</div>
+		<div class="LEE character-1">
+			<img src="images/characterSelect/LEE.png" class="icon">
+			<ul class="info">
+				<li class="actor">
+					Timothy Francis Simpson
+				</li>
+				<li class="as">
+					as
+				</li>
+				<li class="character">
+					LEE
+				</li>
+			</ul>
+		</div>
+	</div>
+</div>
+
+<div id="TODD" class="clearfix">
+	<div class="description">
+		<div class = "card">
+			<img src="images/characters/tags/TODD.png">
+		</div>
+		<p class="info">
+			Really likes horses.
+		</p>
+	</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+<div class="text-block">
+			<div class="card">
+				<img class="tag">
+			</div>
+		</div>

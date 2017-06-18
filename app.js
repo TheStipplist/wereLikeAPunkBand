@@ -15,7 +15,7 @@ app.use(bodyParser.urlencoded({extended:false}));
 app.use('/assets',express.static(__dirname + '/public'));
 
 app.locals.characters = require('./characters.json');
-var characterJson = app.locals.characters; 
+var characterJson = app.locals.characters;
 
 // app.locals.music = require('./characterSelect.json');
 // app.locals.music = require('./aboutUs.json');
@@ -28,6 +28,10 @@ app.get('/entrance', function(req, res){
     res.render('entrance');
 });
 app.get('/enter', function(req,res){
+    res.render('home');
+});
+
+app.get('/home', function(req,res){
     res.render('home');
 });
 
@@ -53,4 +57,3 @@ app.get('/castCrew', function(req,res){
 app.listen(8000,function(){
     console.log('server is a go!');
 });
-

@@ -1,7 +1,7 @@
 .navbar{
     background-image: url(../images/navbar/navbar.png);
     width: 100%;
-    border-bottom: .5vw solid yellow; 
+    border-bottom: .5vw solid yellow;
 }
 .clearfix{
 	overflow: auto;
@@ -18,7 +18,7 @@
     width: 100%;
 }
 .navbar-links a{
-    display: block;  
+    display: block;
     float: right;
 }
 
@@ -31,6 +31,7 @@
 
 
 @media only screen and (orientation: portrait) {
+    /*
     .navbar-links{
         height: 54px;
     }
@@ -47,11 +48,12 @@
         width: 67px;
     }
     .dropdown-content{
+        display: none;
         z-index: 2;
         background: black;
         width: 50%;
         height: 29vw;
-        position: absolute; 
+        position: absolute;
         top: 6%;
         border-left: .75vw solid yellow;
         border-bottom: .75vw solid yellow;
@@ -65,4 +67,5 @@
         color: white;
         display: block;
     }
+    */
 }
