@@ -31,3 +31,44 @@ a{
     color: darkred;
     float: right;
 }
+.entrance-mobile{
+    display: none;
+}
+@media only screen and (orientation: portrait){
+    .logo-3D{
+        width: 55%;
+    }
+    .options{
+        visibility: hidden;
+    }
+}
+@media only screen and (max-width:1024px) and (orientation: portrait){
+    .logo-3D{
+        width: 90%;
+    }
+    .entrance-mobile{
+        padding: 16% 0%;
+        background-image: url(../images/aboutUs/textBlock.png);
+        background-position: center;
+        width: 100%;
+    }
+    .entrance-mobile .options{
+        padding: 0%;
+        visibility: visible;
+        font-size: 10vw;
+        margin: 21px auto;
+        width: 100%;
+        text-align: center;
+    }
+}
+@media only screen and (max-width: 1024px) and (orientation: landscape){
+    .logo-3D{
+        width: 55%;
+    }
+    .options{
+        font-size: 10vw;
+    }
+    .entrance-mobile{
+        display: none;
+    }
+}

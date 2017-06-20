@@ -1,8 +1,8 @@
 
 .scrollbar
 {
-    height: 35vw;
-    overflow-y: scroll
+    height: 665px;
+    overflow-y: scroll;
 }
 .force-overflow
 {
@@ -31,8 +31,8 @@
     background-image: url(../images/castCrew/background.png);
     background-size: cover;
 }
-.description{
-    width: 68%;
+.credits-wheel{
+    width: 75%;
     float: right;
     text-align: center;
     background-image: url(../images/castCrew/textBlock.png);
@@ -42,17 +42,17 @@
 .header{
     width: 28%;
 }
-#credits .description h1{
+#credits .credits-wheel h1{
     font-family: punkKid;
     font-size: 3vw;
     letter-spacing: .25vw;
     word-spacing: 1.125vw;
 }
-#credits .description ul{
+#credits .credits-wheel ul{
     font-family: momsTypewriter;
     font-size: 2vw;
 }
-#credits .description li{
+#credits .credits-wheel li{
     
 }
 @media only screen and (orientation: portrait) {
@@ -60,33 +60,23 @@
         width: 100%;
         content: url('/assets/images/castCrew/mobile/castCrew.png');
     }
-    .description{
-        width: 77%;
-        float: none;
-        text-align: center;
-        background-image: url(../images/castCrew/textBlock.png);
-        padding: 10% 9% 16% 14%;
-        background-size: 100% 100%;
-        margin: 0 auto;
+    .credits-wheel{
+        padding: 25% 9% 25% 14%;
     }
     .scrollbar {
-        height: 600px;
+        height: 660px;
         overflow-y: scroll;
     }
-    #credits .description h1 {
+    #credits .credits-wheel h1 {
         font-family: punkKid;
         font-size: 6vw;
         letter-spacing: .5vw;
         word-spacing: 1.125vw;
     }
-    #credits .description ul {
+    #credits .credits-wheel ul {
         padding: 4% 0%;
         font-family: momsTypewriter;
         font-size: 4vw;
     }
-     #credits .description .credits {
-        padding: 0% 0%;
-        font-family: momsTypewriter;
-        font-size: 1.5vw;
-    }
+    
 }

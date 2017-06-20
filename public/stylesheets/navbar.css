@@ -2,6 +2,8 @@
     background-image: url(../images/navbar/navbar.png);
     width: 100%;
     border-bottom: .5vw solid yellow;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .clearfix{
 	overflow: auto;
@@ -30,7 +32,7 @@
 }
 
 
-@media only screen and (orientation: portrait) {
+@media only screen and (max-width: 425px) and (orientation: portrait) {
     /*
     .navbar-links{
         height: 54px;
@@ -68,4 +70,26 @@
         display: block;
     }
     */
+   
+}
+@media only screen and (max-width: 1024px) and (orientation: landscape) {
+    .navbar{
+        width: 100%;
+        max-width: 1024px;
+    }
+    .home-link{
+        width: 8%;
+    }
+    .about-us-link{
+        width: 13%;
+    }
+    .characters-link{
+        width: 18%
+    }
+    .cast-crew-link{
+        width: 19%;
+    }
+    .music-link{
+        width: 12%
+    }
 }

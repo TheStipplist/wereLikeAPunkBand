@@ -1,6 +1,7 @@
-.scrollbar
+.scrollbar-about-us
 {
-    overflow-y: scroll
+    overflow-y: scroll;
+    height: initial;
 }
 .force-overflow
 {
@@ -34,11 +35,11 @@
     width: 50%;
 }
 #about-us .text-block{
-    width: 45%;
+    width: 40%;
     background-image: url(../images/aboutUs/textBlock.png);
     background-size: 100% 100%;
     float: right;
-    padding: 5% 3% 6% 7%;
+    padding: 5% 7% 6% 7%;
     text-indent: 6vw;
     letter-spacing: .2vw;
 }
@@ -52,25 +53,11 @@ p{
 #mobile-spacer{
     display: none;
 }
-@media only screen and (max-width: 1300px) and (orientation: landscape){
-#about-us{
-    background-position: 26% 0%;
-}
-p{
-    max-height: 350px;
-    padding: 6% 6%;
-    font-family: momsTypewriter;
-    color: white;
-    font-size: 2.5vw;
-}
-}
-@media only screen and (orientation: portrait) {
+
+@media only screen and (max-width: 425px) and (orientation: portrait) {
 
 
-    #mobile-spacer{
-        display: block;
-        width: 100%;
-    }
+    
 
     #about-us {
         height: 92vw;
@@ -82,14 +69,7 @@ p{
     .heading img {
         z-index: 1;
         position: absolute;
-        width: 60%;
-    }
-
-    #about-us .text-block{
-        position: relative;
-        top: 19%;
-        width: 84%;
-        right: 3%;
+        width: 55%;
     }
 
     p{
@@ -97,9 +77,52 @@ p{
         font-family: momsTypewriter;
         color: white;
         font-size: 3.5vw;
-        text-indent: 20vw;
+        text-indent: 10vw;
     }
     .ABOUT-US{
       display: block;
     }
+    #about-us .text-block{
+        width: 60%;
+        background-image: url(../images/aboutUs/textBlock.png);
+        background-size: 100% 100%;
+        float: right;
+        padding: 5% 7% 6% 7%;
+        text-indent: 6vw;
+        margin-top: 21%;
+        letter-spacing: .2vw;
+    }
+    .text-block p{
+        font-size: 3vw;
+    }
+    
+}
+@media only screen and (min-width: 426px) and (max-width: 1024px){
+    #about-us{
+        background-position: 26% 0%;
+    }
+    #video-container{
+        max-width:581px;
+    }
+    #about-us .text-block{
+        margin-top: 10%;
+    }
+    p{
+        max-height: 240px;
+        padding: 6% 6%;
+        font-family: momsTypewriter;
+        color: white;
+        font-size: 2.5vw;
+    }
+    .scrollbar-about-us{
+    }
+}
+    @media only screen and (max-width: 1024px) and (orientation: portrait){
+
+
+    #mobile-spacer{
+        display: block;
+        width: 100%;
+    }
+    
 }

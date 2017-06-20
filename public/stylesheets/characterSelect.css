@@ -8,15 +8,15 @@
 }
 
 #character-select .heading {
-    width: 450px;
     font-family: momsTypewriter;
-    font-size: 79px;
-    padding: 30px;
+    font-size: 4vw;
+    padding: 2%;
     background-image: url(../images/characterSelect/theBand.png);
     background-position: center;
     background-size: 100% 100%;
     -webkit-text-stroke: red;
     -webkit-text-stroke-width: .15vw;
+    width: 25%;
 
 }
 #selector{
@@ -34,7 +34,7 @@
     list-style: none;
     padding: 3% 0%;
 }
-div.character{
+div.option{
     float: left;
     width: 20%;
 }
@@ -46,21 +46,7 @@ div.character{
     background-repeat: no-repeat
 }
 
-#TODD .actor{
-    background-image: url(../images/characterSelect/tags/thomOliverJamesBoody.png);
-}
-#BUTCHIE .actor{
-    background-image: url(../images/characterSelect/tags/brendanHickey.png);
-}
-#NIKKI .actor{
-    background-image: url(../images/characterSelect/tags/allisonFrasca.png);
-}
-#TJ .actor{
-    background-image: url(../images/characterSelect/tags/stephenzuccaro.png);
-}
-#LEE .actor{
-    background-image: url(../images/characterSelect/tags/thomOliverJamesBoody.png);
-}
+
 
 .icon{
     width: 100%;
@@ -76,22 +62,7 @@ div.character{
     background-size: 100% 100%;
     font-size: 3vw;
 }
-#TODD .role{
-    background-image: url(../images/characterSelect/tags/TODD.png);
-}
 
-#BUTCHIE .role{
-    background-image: url(../images/characterSelect/tags/BUTCHIE.png);
-}
-#NIKKI .role{
-    background-image: url(../images/characterSelect/tags/NIKKI.png);
-}
-#TJ .role{
-    background-image: url(../images/characterSelect/tags/TJ.png);
-}
-#LEE .role{
-    background-image: url(../images/characterSelect/tags/LEE.png);
-}
 
 .actor{
     padding: 3% 0%;
@@ -111,7 +82,7 @@ div.character{
 
 
 
-.scrollbar
+.scrollbar-character
 {
     width:100%;
     overflow-x: scroll
@@ -141,37 +112,186 @@ div.character{
 }
 
 #selector{
-    width: 2000px;
-}
-
-#selector .as{
     width: 100%;
 }
-div.character{
-    width: 400px;
+
+
+.option{
+    width: 200px;
 }
 
-.icon{
-    margin: 0 AUTO;
-    width: 85%;
-}
+
 #clicker{
     display: inline-block;
     width: 15%;
     position: relative;
     bottom: 5vw;
 }
+
+
 .info{
     padding: 0%;
 }
-#selector .as{
-    font-size: 30px;
+.icon{
+    margin: 0 AUTO;
+    width: 90%;
 }
+#selector li{
+    margin: 0 auto
+}
+
+
 #selector .actor{
-    font-size: 22px;
+    padding: 4%;
+    font-size: 1.2vw;
+}
+#TODD .actor{
+    font-size: 1vw;
+    background-image: url(../images/characterSelect/tags/thomOliverJamesBoody.png);
+    width: 90%;
+}
+#BUTCHIE .actor{
+    background-image: url(../images/characterSelect/tags/brendanHickey.png);
+    width: 70%;
+}
+#NIKKI .actor{
+    background-image: url(../images/characterSelect/tags/allisonFrasca.png);
+    width: 70%;
+}
+#TJ .actor{
+    background-image: url(../images/characterSelect/tags/stephenzuccaro.png);
+    width: 75%;
+}
+#LEE .actor{
+    font-size: 1vw;
+    background-image: url(../images/characterSelect/tags/thomOliverJamesBoody.png);
+    width: 92%;
     padding: 4%;
 }
+
+
+#selector .as{
+    font-size: 13px;
+}
+
+
 #selector .role{
-    padding: 3%;
-    font-size: 59px;
+    font-size: 2.5vw;
+}
+#TODD .role{
+    background-image: url(../images/characterSelect/tags/TODD.png);
+    width: 50%;
+}
+
+#BUTCHIE .role{
+    background-image: url(../images/characterSelect/tags/BUTCHIE.png);
+    width: 75%;
+}
+#NIKKI .role{
+    background-image: url(../images/characterSelect/tags/NIKKI.png);
+    width: 56%;
+}
+#TJ .role{
+    background-image: url(../images/characterSelect/tags/TJ.png);
+    width: 44%;
+}
+#LEE .role{
+    background-image: url(../images/characterSelect/tags/LEE.png);
+    width: 46%;
+}
+
+
+@media only screen and (max-width: 425px) and (orientation: portrait){
+    #character-select .heading {
+        width: 68%;
+        font-size: 11vw;
+        padding: 3% 1% 3% 5%;
+    }
+    .icon{
+        width: 65%;
+    }
+    #selector{
+        width: 2000px
+    }
+    #selector .actor {
+        font-size: 6vw;
+
+    }
+
+    #TODD .actor{
+        font-size: 4.6vw;
+    }
+    #LEE .actor{
+        font-size: 4.6vw;
+    }
+
+
+   
+    
+    #selector .as{
+        font-size: 5vw;
+    }
+
+     #selector .role{
+        font-size: 12vw;
+    }
+
+}
+@media only screen and (max-width: 1024px) and (orientation: landscape){
+    #selector{
+        width: 2000px;
+    }
+    .icon{
+        width: 65%;
+    }
+    #character-select .heading{
+        width: 38%;
+        font-size: 6vw;
+        padding: 6px 2px 8px 14px;
+    }
+    #selector .actor {
+        font-size: 3vw;
+        padding: 4%;
+    }
+    #selector .role{
+        font-size: 5vw;
+    }
+    #selector #TODD .actor{
+        font-size: 2.5vw
+    }
+    #selector #LEE .actor{
+        font-size: 2.5vw
+    }
+    #selector .as{
+        font-size: 2vw;
+    }
+}
+    @media only screen and (min-width: 426px) and (max-width: 1024px) and (orientation: portrait){
+    .scrollbar-character{
+        height: initial;
+    }
+    #selector{
+        width: 3700px;
+    }
+    .icon{
+        width: 65%;
+    }
+    #character-select .heading{
+        width: 56%;
+        font-size: 9vw;
+        padding: 6px 2px 8px 14px;
+    }
+    #selector .actor {
+        font-size: 5vw;
+        padding: 4%;
+    }
+    #selector .role{
+        font-size: 8vw;
+    }
+    
+    #selector .as{
+        font-size: 4vw;
+    }
+
+
 }
