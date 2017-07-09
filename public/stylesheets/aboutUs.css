@@ -30,6 +30,7 @@
     background-image: url(../images/aboutUs/background.png);
     background-position: center;
     background-size: cover;
+    border-bottom: 1vw solid yellow;
 }
 .heading img{
     width: 50%;
@@ -52,6 +53,21 @@ p{
 
 #mobile-spacer{
     display: none;
+}
+#social-media{
+    font-family: momsTypewriter;
+    font-size: 2vw;
+    background-image: url(../images/aboutUs/socialMediaBackground.png);
+    background-size: 100% 100%;
+    background-position: center;
+    padding: 1% 0%;
+}
+.links{
+    background-image: url(../images/aboutUs/linkSpace.png);
+    background-size: 100% 100%;
+    background-position: center;
+    padding: 5% 5% 5% 5%;
+    margin: 10% 0%;
 }
 
 @media only screen and (max-width: 425px) and (orientation: portrait) {

@@ -1,5 +1,12 @@
 <% include ./navbar.ejs %>
-
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.9";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
 
 <div id="about-us" class="clearfix">
 	<div class="heading">
@@ -11,7 +18,14 @@
 		</p>
 	</div>
 </div>
+<div id= social-media>
+	<div class="links">Check us out on facebook!          <div class="fb-like" data-href="https://www.facebook.com/werelikeapunkband/" data-layout="button" data-action="like" data-size="large" data-show-faces="true" data-share="true"></div></div>
+	<div class="links"><a href="https://www.instagram.com/werelikeapunkband/"> and check us out on our instagram page "werelikeapunkband"</a>
+</div>
 <div id="mobile-spacer" class="video-container"><iframe width="853" height="480" src="https://www.youtube.com/embed/gBrBSUdUmMk" frameborder="0" allowfullscreen</iframe</div>
 
+
+
+  
 
 <% include ./footer.ejs %>

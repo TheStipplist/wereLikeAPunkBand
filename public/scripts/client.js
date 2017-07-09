@@ -1,6 +1,7 @@
 var audio, playBtn, pauseBtn, myList, dir, ext;
 
 function initAudioPlayer(){
+   
     var defaultSong = "CummyMummy"
 
     audio = new Audio;
